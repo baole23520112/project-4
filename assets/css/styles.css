@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-background: #FFFAF5;
+}
+
 html,
 body {
     scroll-behavior: smooth;
@@ -32,3 +36,72 @@ button {
     font-family: inherit;
     font-size: inherit;
 }
+
+/* ========================== Common ========================== */
+.container {
+    width: 1169px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    min-width: 130px;
+    height: 56px;
+    flex-shrink: 0;
+    color: #000958;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 100%;
+    border-radius: 25px;
+    border: 1px solid rgb(0, 9, 88, 0.7);
+    background: transparent;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+
+/* ======================= Header ========================= */
+.header {
+    padding: 26px 0;
+    min-height: 100%;
+    background: var(--primary-background);
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__list {
+    display: flex;
+}
+
+.navbar__link {
+    padding: 8px 18px;
+    color: #5E6085;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+.navbar__link-active,
+.navbar__link:hover {
+    color: #000958;
+    text-shadow: calc(1px / 100) 0 0 currentColor;
+}
+
+.header-action__btn {
+    min-width: 117px;
+    height: 50px;
+}
+
+
+
