@@ -70,6 +70,7 @@ a {
 
 .btn:hover {
     opacity: 0.9;
+    cursor: pointer;
 }
 
 .btn--primary {
@@ -84,7 +85,14 @@ a {
     height: 20px;
     border-radius: 50%;
     background: #fff;
+    box-shadow: 0px 13px 26px -8px rgba(255, 91, 46, 0.42);
+}
 
+.section-heading {
+    color: #000958;
+    font-size: 5.2rem;
+    font-weight: 700;
+    line-height: 119.231%;
 }
 
 /* ======================= Header ========================= */
@@ -233,4 +241,71 @@ a {
     font-weight: 500;
     line-height: 100%;
     text-decoration-line: underline;
+}
+
+/* =========================== About ============================== */
+/* .about {
+    margin-top: 207px;
+} */
+
+.about__inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about__label {
+    color: #5E6085;
+    font-family: Sora;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.about__heading {
+    margin-top: 15px;
+    width: 446px;
+}
+
+.about__desc {
+    margin-top: 24px;
+    width: 431px;
+    color: #656689;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 187.5%;
+}
+
+.about__checklist {
+    margin-top: 57px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* use auto to align item to gap */
+    row-gap: 34px;
+}
+
+.about__check-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: #48496A;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+.about__check-item::before {
+    margin-right: 10px;
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-color: #FF5D31;
+    border-radius: 4px;
+}
+
+.about__check-item::after {
+    content: url(../img/check.svg);
+    display: inline-block;
+    position: absolute;
+    top: 2px;
+    left: 5px;
 }
