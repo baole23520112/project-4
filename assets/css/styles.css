@@ -95,6 +95,12 @@ a {
     line-height: 119.231%;
 }
 
+.section-desc {
+    color: #656689;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 187.5%;
+}
 /* ======================= Header ========================= */
 .header {
     padding: 26px 0;
@@ -275,10 +281,6 @@ a {
 .about__desc {
     margin-top: 24px;
     width: 431px;
-    color: #656689;
-    font-size: 1.6rem;
-    font-weight: 400;
-    line-height: 187.5%;
 }
 
 .about__checklist {
