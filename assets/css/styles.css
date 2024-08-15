@@ -588,6 +588,17 @@ a {
     line-height: 100%;
 }
 
+.service-item__heading::before {
+    content: "";
+    margin-bottom: -3px;
+    margin-right: 8px;
+    display: inline-block;
+    width: 2px;
+    height: 22px;
+    background: linear-gradient(90deg, #FF5B2E 0.39%, #FFA187 100.29%);
+    border-radius: 1px;
+}
+
 .service-item__desc {
     margin-top: 18px;
     color: #656689;
