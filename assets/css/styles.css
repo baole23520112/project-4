@@ -3,8 +3,8 @@
 }
 
 :root {
-    --primary-background: #FFFAF5;
-    --primary-color: #FF5B2E;
+    --primary-background: #fffaf5;
+    --primary-color: #ff5b2e;
 }
 
 html,
@@ -19,7 +19,7 @@ html {
 body {
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
-    background: #FFFAF5;
+    background: #fffaf5;
 }
 
 h1,
@@ -120,7 +120,7 @@ a {
 
 .navbar__link {
     padding: 8px 18px;
-    color: #5E6085;
+    color: #5e6085;
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 100%;
@@ -140,7 +140,7 @@ a {
 /* ============================= Hero ============================ */
 .hero {
     margin-top: 74px;
-    padding: 50px 0  0;
+    padding: 50px 0 0;
     min-height: 100vh;
 }
 
@@ -163,7 +163,7 @@ a {
     width: 388px;
     height: 488px;
     border-radius: 16px;
-    background: #FE997B;
+    background: #fe997b;
     border: 3px solid #fff;
     /* make footer of image always place in the ground */
     display: flex;
@@ -193,7 +193,7 @@ a {
 .hero__img-wrap-small {
     max-width: 186px;
     max-height: 244px;
-    background: #FAA7AD;
+    background: #faa7ad;
     margin-left: -23px;
     margin-bottom: -58px;
     border: 2px solid #fcdde0;
@@ -266,7 +266,7 @@ a {
 }
 
 .about__label {
-    color: #5E6085;
+    color: #5e6085;
     font-family: Sora;
     font-size: 1.6rem;
     font-weight: 600;
@@ -294,7 +294,7 @@ a {
     position: relative;
     display: flex;
     align-items: center;
-    color: #48496A;
+    color: #48496a;
     font-size: 1.8rem;
     font-weight: 500;
     line-height: 100%;
@@ -306,7 +306,7 @@ a {
     display: inline-block;
     width: 24px;
     height: 24px;
-    background-color: #FF5D31;
+    background-color: #ff5d31;
     border-radius: 4px;
 }
 
@@ -327,13 +327,13 @@ a {
     width: 136px;
     height: 156px;
     border-radius: 10px;
-    background: #5BD6E2;
+    background: #5bd6e2;
     box-shadow: -15px 26px 48px 0px rgba(85, 240, 255, 0.17);
     z-index: 1;
 }
 
 .about__card-title {
-    color: #FFF;
+    color: #fff;
     font-family: Sora;
     font-size: 4.2rem;
     font-weight: 700;
@@ -342,7 +342,7 @@ a {
 
 .about__card-desc {
     margin-top: 14px;
-    color: #C6F4F9;
+    color: #c6f4f9;
     font-size: 1.4rem;
     font-weight: 400;
     line-height: 142.857%;
@@ -365,7 +365,7 @@ a {
     content: "";
     inset: auto 0 0 0;
     height: 336px;
-    background: linear-gradient(180deg, #FCE0EF 0%, #FAC3D1 100%);
+    background: linear-gradient(180deg, #fce0ef 0%, #fac3d1 100%);
     border-radius: 16px;
     z-index: -1;
 }
@@ -387,8 +387,8 @@ a {
 .about__img-wrap-bottom {
     margin-left: 0;
     border-radius: 18px;
-    border: 2px solid #FFF;
-    background: linear-gradient(180deg, #C6E2FA 0%, #94C2EA 100%);
+    border: 2px solid #fff;
+    background: linear-gradient(180deg, #c6e2fa 0%, #94c2ea 100%);
     box-shadow: 0px 17px 77px -8px rgba(190, 165, 139, 0.17);
 }
 
@@ -442,7 +442,7 @@ a {
 
 .tab__list {
     position: relative;
-    display: flex;
+    display: inline-flex; /* efficient line to use, not full */
     column-gap: 56px;
 }
 
@@ -454,7 +454,7 @@ a {
     right: 0;
     bottom: 0;
     height: 2px;
-    background: #FF5B2E;
+    background: #ff5b2e;
     border-radius: 1px;
     opacity: 0.07;
 }
@@ -484,7 +484,7 @@ a {
     text-wrap: nowrap;
     display: flex;
     align-items: center;
-    color: #48496A;
+    color: #48496a;
     font-size: 1.8rem;
     font-weight: 600;
     line-height: 100%;
@@ -507,7 +507,7 @@ a {
     color: #656689;
     font-size: 1.4rem;
     font-weight: 400;
-    line-height:171.429%;
+    line-height: 171.429%;
 }
 
 .tab__content-link {
@@ -515,7 +515,7 @@ a {
     padding-bottom: 5px;
     display: inline-block;
     margin-top: 32px;
-    color: #FF5D31;
+    color: #ff5d31;
     font-size: 1.6rem;
     font-weight: 500;
     line-height: 100%;
@@ -530,6 +530,92 @@ a {
     content: "";
     width: 86px;
     height: 1.5px;
-    background: #FF5D31;
+    background: #ff5d31;
     border-radius: 1px;
+}
+
+/* ============================= Service ============================ */
+.service {
+    margin-top: 190px;
+    padding: 68px 0 100px;
+    background: #fff6ed;
+}
+
+.service__top {
+    text-align: center;
+}
+
+.service-desc {
+    color: #5e6085;
+    font-family: Sora;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.service-heading {
+    margin-top: 15px;
+    color: #000958;
+    font-size: 5.2rem;
+    font-weight: 700;
+    line-height: 119.231%;
+}
+
+.service__bottom {
+    margin-top: 71px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+}
+
+.service__column {
+    display: grid;
+    row-gap: 24px;
+}
+
+.service-item {
+    padding: 30px 22px 30px 28px;
+    width: 294px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 188, 122, 0.26);
+    background: #fff;
+}
+
+.service-item__heading {
+    color: #000958;
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.service-item__desc {
+    margin-top: 18px;
+    color: #656689;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 171.429%;
+}
+
+.service__item-link {
+    margin-top: 24px;
+    display: inline-flex;
+    align-items: center;
+    color: #34396A;
+    font-family: Sora;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.service__item-link::after {
+    content: url(../img/arrow-up-right.svg);
+    margin-left: 6px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+}
+
+.service-middle__img {
+    width: 447px;
+    height: 621px;
+    object-fit: cover;
 }
