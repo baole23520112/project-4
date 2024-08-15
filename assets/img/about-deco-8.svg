@@ -1,7 +1,1 @@
-<svg width="125" height="121" viewBox="0 0 125 121" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="Group 43">
-<circle id="Ellipse 17" cx="53.8125" cy="53.8125" r="53.8125" transform="matrix(-1 0 0 1 124 12.958)" stroke="#5992C3" stroke-width="2"/>
-<circle id="Ellipse 18" cx="52.1042" cy="52.1042" r="52.1042" transform="matrix(-1 0 0 1 114.604 8.6875)" stroke="#5992C3" stroke-width="2"/>
-<circle id="Ellipse 19" cx="52.1042" cy="52.1042" r="52.1042" transform="matrix(-1 0 0 1 105.208 1)" stroke="#5992C3" stroke-width="2"/>
-</g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="125" height="121" fill="none" viewBox="0 0 125 121"><g id="Group 43"><circle id="Ellipse 17" cx="53.813" cy="53.813" r="53.813" stroke="#5992C3" stroke-width="2" transform="matrix(-1 0 0 1 124 12.958)"/><circle id="Ellipse 18" cx="52.104" cy="52.104" r="52.104" stroke="#5992C3" stroke-width="2" transform="matrix(-1 0 0 1 114.604 8.6875)"/><circle id="Ellipse 19" cx="52.104" cy="52.104" r="52.104" stroke="#5992C3" stroke-width="2" transform="matrix(-1 0 0 1 105.208 1)"/></g></svg>
