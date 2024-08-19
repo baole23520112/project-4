@@ -1158,3 +1158,127 @@ a {
     font-weight: 400;
     line-height: 171.429%;
 }
+
+/* ======================= Footer ===================== */
+.footer {
+    margin-top: 53px;
+    background: #fff6ed;
+    background: linear-gradient(to right, #FFF6ED 45%, transparent 42%);
+}
+
+.footer__inner {
+    display: flex;
+}
+
+.footer__left {
+    padding: 114px 0 118px;
+    width: 42%;
+}
+
+.footer__right {
+    flex-grow: 1;
+    padding: 52px 0 48px 0;
+}
+
+.footer-form {
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 268px;
+    height: 46px;
+    border-radius: 99px;
+    border: 1px solid rgba(255, 91, 46, 0.25);
+    background: #fff;
+}
+
+.search-form__input {
+    padding: 0 22px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: inherit;
+}
+
+.search-form__input::placeholder {
+    color: #656689;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 116.667%;
+}
+
+.search-form__btn {
+    margin-right: -1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ff5b2e;
+    height: 46px;
+    width: 56px;
+    border-radius: 999px;
+    outline: none;
+    border: none;
+}
+
+.footer__heading {
+    margin-top: 68px;
+    color: #000958;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 111.111%;
+}
+
+.social-list {
+    margin-top: 16px;
+    display: flex;
+    column-gap: 16px;
+}
+
+.social-item {
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    border-radius: 999px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__row {
+    margin-left: 129px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 58px 137px;
+}
+
+.footer__right-heading {
+    color: #000958;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 111.111%;
+}
+
+.footer__list {
+    margin-top: 14px;
+}
+
+.footer__link {
+    color: #656689;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 200%;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}
+
+.footer__copyright {
+    margin: 52px 0 0 22px;
+    color: #656689;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 116.667%;
+}
